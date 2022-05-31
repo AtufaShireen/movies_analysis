@@ -1,0 +1,14 @@
+packages required:
+    - yake, nltk, spacy, gensim :for text preprocessing, model buidling, analysis.
+    - beautifulsoup4, requests : for extracting required text from websites
+    - pandas, numpy :for calculations, storage, manipulation etc.
+    - scipy : for storing sparse matrix
+    - wordcloud, seaborn, matplotlib :for visualizations
+
+guidlines:
+    - All the steps from movies scraping till analysis are divided into stages and are available in stages folder.
+    - readme.md contains deep explanation to each of these stages.
+    - The required rest apis is built using fastapi, and code can be found in project/app folder.
+    - model build for sematic search of movies can be found in models folder.
+    - data folder contains intermediary files used or generated for execution of pipeline.
+    - The project is built on ~1000 movies due to time constraint.
